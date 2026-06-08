@@ -2,7 +2,7 @@
 members = [ "cargo-duchess","duchess-build-rs", "duchess-reflect", "macro-rules"]
 
 [workspace.package]
-version = "0.3.0"
+version = "0.4.0"
 license = "Apache-2.0 OR MIT"
 repository = "https://github.com/duchess-rs/duchess"
 homepage = "https://duchess-rs.github.io/duchess/"
@@ -19,8 +19,8 @@ readme = "README.md"
 
 [dependencies]
 derive_more = "0.99.17"
-duchess-macro = { path = "macro", version = "0.3.0" }
-duchess-macro-rules = { version = "0.3.0", path = "macro-rules" }
+duchess-macro = { path = "macro", version = "0.4.0" }
+duchess-macro-rules = { version = "0.4.0", path = "macro-rules" }
 jni-sys = "0.3.0"
 cesu8 = "1.1.0"
 once_cell = "1.17.1"

@@ -1,3 +1,33 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+## [0.4.0](https://github.com/duchess-rs/duchess/compare/duchess-v0.3.0...duchess-v0.4.0) - 2026-06-08
+
+### Fixed
+
+- replace deprecated TempDir::into_path() with TempDir::keep() ([#210](https://github.com/duchess-rs/duchess/pull/210))
+
+### Other
+
+- Add JDK 25 to CI and fix Class.isInterface/isArray/isPrimitive incompatibility ([#208](https://github.com/duchess-rs/duchess/pull/208))
+- Update rust.yml ([#203](https://github.com/duchess-rs/duchess/pull/203))
+- Add -Xcheck:jni to java-to-rust tests ([#199](https://github.com/duchess-rs/duchess/pull/199))
+- Fix issue on aarch64 with jdk-17.0.15+6-LTS ([#197](https://github.com/duchess-rs/duchess/pull/197))
+- Add aarch64 to the testing matrix ([#198](https://github.com/duchess-rs/duchess/pull/198))
+- Fix broken link in README.md ([#195](https://github.com/duchess-rs/duchess/pull/195))
+- Rework Java function support ([#193](https://github.com/duchess-rs/duchess/pull/193))
+- pretty-close-to-build-rs ([#188](https://github.com/duchess-rs/duchess/pull/188))
+- Add array tests to the java-to-rust ui tests ([#189](https://github.com/duchess-rs/duchess/pull/189))
+- introduce a build-rs and a `cargo-duchess` utility ([#187](https://github.com/duchess-rs/duchess/pull/187))
+- rename `s/plumbing/semver_unstable`, hide in docs ([#186](https://github.com/duchess-rs/duchess/pull/186))
+- extract codegen into macro-rules macros ([#185](https://github.com/duchess-rs/duchess/pull/185))
+- Fix autobless ([#184](https://github.com/duchess-rs/duchess/pull/184))
 # 0.3.0 (July 22nd, 2024)
 This release contains many improvements for calling Rust code from Java:
 1. Add support for returning scalars (#181)
